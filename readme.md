@@ -10,7 +10,7 @@ This project provides a utility to convert `.ppm` images to `.pgm` format using 
   - `Lightness`: Average of the brightest and darkest color channels.
   - `Average`: Mean of all three color channels.
   - `Luminosity`: Weighted average emphasizing green, followed by red, and then blue.
-  - `Desaturation`: Average of the maximum and minimum color channel values.
+  - `RootMeanSquare`: Root mean square of the color channels.
   - `RedChannel`: Uses the red channel as the grayscale value.
   - `GreenChannel`: Uses the green channel as the grayscale value.
   - `BlueChannel`: Uses the blue channel as the grayscale value.
